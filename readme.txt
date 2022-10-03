@@ -1,3 +1,20 @@
+THIS GET SIMPLE 3.3.16 COMMUNITY EDITION 
+
+What changed on first version Community Edition?
+
+Produced: 3/10/2022 5:35:12 PM
+Notes:
+
+- Fix error message (empty log file) #1312 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1312)
+- Add .webp support for GetSimple CMS #1350 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1350)
+- Further 8.x compatibility from Topic with fixes
+
+MORE INFO
+https://multicolor-rgb.github.io
+
+
+///original readme ///
+
 GetSimple Content Management System
 =========================================
 
