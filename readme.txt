@@ -2,9 +2,10 @@ THIS GET SIMPLE 3.3.16 COMMUNITY EDITION
 
 What changed on first version Community Edition?
 
-Produced: 3/10/2022 5:35:12 PM
+Produced: 4/10/2022 3:51:24 PM
 Notes:
 
+- Fixes vulnerability #1335 (https://github.com/GetSimpleCMS/GetSimpleCMS/issues/1335)
 - Fix error message (empty log file) #1312 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1312)
 - Add .webp support for GetSimple CMS #1350 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1350)
 - Further 8.x compatibility from Topic with fixes
