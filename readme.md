@@ -16,7 +16,7 @@ What has changed in this first version of the Community Edition?
 - Fixes vulnerability #1335 (https://github.com/GetSimpleCMS/GetSimpleCMS/issues/1335)
 - Fix error message (empty log file) #1312 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1312)
 - Add .webp support for GetSimple CMS #1350 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1350)
-- Further 8.x compatibility from Topic with fixes
+- Further 8.x compatibility from Topic with fixes [Forum Thread](http://get-simple.info/forums/showthread.php?tid=16548)
 
 
 🔗 MORE INFO: https://multicolor-rgb.github.io
