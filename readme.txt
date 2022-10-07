@@ -2,9 +2,13 @@ THIS GET SIMPLE 3.3.16 COMMUNITY EDITION
 
 What changed on first version Community Edition?
 
-Produced: 4/10/2022 3:51:24 PM
+Produced: 7/10/2022
 Notes:
 
+- Fixes bug in Components if none exist.
+- Fixed non numeric error on gsdebug.
+- Changed function name do to deprecated class constructor.
+- Missing php7 extension on file_ext_blacklist #1237
 - Fixes vulnerability #1335 (https://github.com/GetSimpleCMS/GetSimpleCMS/issues/1335)
 - Fix error message (empty log file) #1312 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1312)
 - Add .webp support for GetSimple CMS #1350 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1350)
