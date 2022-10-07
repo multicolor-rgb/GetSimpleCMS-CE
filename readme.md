@@ -1,10 +1,10 @@
-### THIS GET SIMPLE 3.3.16 COMMUNITY EDITION 
+### GetSimple CMS 3.3.16 COMMUNITY EDITION 
 
-What changed on first version Community Edition?
+What has changed in this first version of the Community Edition?
 
-**_Added support for php7.x-8.1_**
+🚀 **_Added support for php7.x-8.1_**
 
-⚡ Updated: 7/10/2022
+⚡ Latest update: 7/10/2022
 
 Notes:
 
@@ -17,12 +17,12 @@ Notes:
 - Add .webp support for GetSimple CMS #1350 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1350)
 - Further 8.x compatibility from Topic with fixes
 
-MORE INFO
-https://multicolor-rgb.github.io
+🔗 MORE INFO: https://multicolor-rgb.github.io
 
 
+```bash
 ///original readme ///
-
+```
 GetSimple Content Management System
 =========================================
 
