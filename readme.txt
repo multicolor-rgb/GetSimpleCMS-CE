@@ -1,4 +1,4 @@
-#THIS GET SIMPLE 3.3.16 COMMUNITY EDITION 
+<h3>THIS GET SIMPLE 3.3.16 COMMUNITY EDITION</h3> 
 
 What changed on first version Community Edition?
 
