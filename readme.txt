@@ -1,8 +1,9 @@
-THIS GET SIMPLE 3.3.16 COMMUNITY EDITION 
+#THIS GET SIMPLE 3.3.16 COMMUNITY EDITION 
 
 What changed on first version Community Edition?
 
-Produced: 7/10/2022
+⚡ Updated: 7/10/2022
+
 Notes:
 
 - Fixes bug in Components if none exist.
