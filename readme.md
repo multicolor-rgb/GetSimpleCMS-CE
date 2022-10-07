@@ -1,6 +1,8 @@
-## THIS GET SIMPLE 3.3.16 COMMUNITY EDITION 
+### THIS GET SIMPLE 3.3.16 COMMUNITY EDITION 
 
 What changed on first version Community Edition?
+
+* * _ Added support for php7.x-8.1
 
 ⚡ Updated: 7/10/2022
 
