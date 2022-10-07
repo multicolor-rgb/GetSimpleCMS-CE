@@ -4,9 +4,10 @@ What has changed in this first version of the Community Edition?
 
 🚀 **_Added support for php7.x-8.1_**
 
-⚡ Latest update: 7/10/2022
 
-Notes:
+⚡ Latest changes: 7/10/2022
+
+**Updates:**
 
 - Fixes bug in Components if none exist.
 - Fixed non numeric error on gsdebug.
@@ -16,6 +17,7 @@ Notes:
 - Fix error message (empty log file) #1312 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1312)
 - Add .webp support for GetSimple CMS #1350 (https://github.com/GetSimpleCMS/GetSimpleCMS/pull/1350)
 - Further 8.x compatibility from Topic with fixes
+
 
 🔗 MORE INFO: https://multicolor-rgb.github.io
 
