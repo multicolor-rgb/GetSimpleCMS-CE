@@ -25,16 +25,16 @@
  * $class->save(); // write log record to file
  * $class->clear(); // removes log file
  */
- 
+
 class GS_Logging_Class {
 
         private $_xml;
         private $_xmlfile;
         private $_entry;
-  
+
         function __construct($filename,$logdefaults=true) {
                 // check filename, must be .log
-                
+
                 if($this->validFilename($filename)){
                     $this->_xmlfile = GSDATAOTHERPATH.'logs/'.$filename;
                     if ( file_exists($this->_xmlfile) )  {
@@ -44,12 +44,12 @@ class GS_Logging_Class {
                     } else {
                         $this->_xml = new SimpleXMLExtended('<?xml version="1.0" encoding="UTF-8"?><channel></channel>');
                     }
-                    
+
                     // create entry and add date
                     $thislog = $this->_xml->addChild('entry');
                     $thislog->addChild('date', date('r'));                
                     $this->_entry = $thislog;
-                    
+
                     if($logdefaults==true) $this->defaults();  
                 }
                 else return false;
@@ -71,7 +71,7 @@ class GS_Logging_Class {
                   return true;
                 }
         }
-        
+
         /* 
          * Add default fields to log
          * Adds Username(If logged in),IP Address
@@ -79,12 +79,12 @@ class GS_Logging_Class {
          */   
         private function defaults(){
                 GLOBAL $USR;
-                
+
                 if(isset($USR)){
                   $cdata = $this->_entry->addChild('Username');
                   $cdata->addCData(htmlentities($USR, ENT_QUOTES));
                 }
-                
+
                 $cdata = $this->_entry->addChild('IP_Address');
                 $ip = getenv("REMOTE_ADDR"); 
                 $cdata->addCData(htmlentities($ip, ENT_QUOTES));  
@@ -113,7 +113,7 @@ class GS_Logging_Class {
                         return $res;
                 }
         }
-        
+
         /* 
          * Add Log Record Field
          * 
@@ -128,7 +128,7 @@ class GS_Logging_Class {
                       $cdata->addCData(safe_slash_html($value));
                 }  
         }
-  
+
 } // end of class                   
 
 ?>

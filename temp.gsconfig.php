@@ -68,7 +68,7 @@ define('GSDONOTPING', 1);
 
 # Enable the External API to be shown on settings page 
 #define('GSEXTAPI', 1);
-	
+
 # Set PHP locale
 # http://php.net/manual/en/function.setlocale.php
 #setlocale(LC_ALL, 'en_US');

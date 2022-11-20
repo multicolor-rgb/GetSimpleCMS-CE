@@ -24,16 +24,16 @@
 <div id="wrapper">
 
 	<div id="header">
-		
+
 		<ul id="nav">
 			<?php get_navigation(return_page_slug()); ?>
 		</ul>
-		
+
 		<span class="logo2"><?php get_site_name(); ?></span>
 		<a class="logo" href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a>
 
 	</div><!-- end header -->
-	
+
 	<div id="content">
 		<h1><?php get_page_title(); ?></h1>	
 			<div id="page-content">
@@ -43,7 +43,7 @@
 				</div>
 			</div>
 	</div>	
-		
+
 	<div id="sidebar">
 		<div class="section">
 			<?php get_component('sidebar');	?>
@@ -56,11 +56,11 @@
 			</p>
 		</div>
 	</div>
-	
+
 	<div class="clear"></div>
-	
+
 	<?php get_footer(); ?>
-	
+
 </div><!-- end wrapper -->
 </body>
 </html>

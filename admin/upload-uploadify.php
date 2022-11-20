@@ -22,9 +22,9 @@ if (!defined('GSIMAGEWIDTH')) {
 	
 if ($_POST['sessionHash'] === $SESSIONHASH) {
 	if (!empty($_FILES)){
-		
+
 		$tempFile  = $_FILES['Filedata']['tmp_name'];
-		
+
 		$file      = $_FILES['Filedata']['name'];
 		$extension = pathinfo($file,PATHINFO_EXTENSION);
 		if(getDef('GSUPLOADSLC',true)) $extension = lowercase($extension);
@@ -33,7 +33,7 @@ if ($_POST['sessionHash'] === $SESSIONHASH) {
 
 		$targetPath = (isset($_POST['path'])) ? GSDATAUPLOADPATH.$_POST['path']."/" : GSDATAUPLOADPATH;
 		$targetFile =  str_replace('//','/',$targetPath) . $name . '.'.$extension;
-		
+
 		//validate file
 		if (validate_safe_file($tempFile, $_FILES["Filedata"]["name"])) {
 			move_uploaded_file($tempFile, $targetFile);
@@ -47,7 +47,7 @@ if ($_POST['sessionHash'] === $SESSIONHASH) {
 			die(i18n_r('ERROR_UPLOAD') . ' - ' . i18n_r('BAD_FILE'));
 			// invalid file
 		}
-		 
+
 		$path = (isset($_POST['path'])) ? $_POST['path']."/" : "";			
 		require('inc/imagemanipulation.php');	
 		genStdThumb(isset($_POST['path']) ? $_POST['path']."/" : '',$name.'.'.$extension);	

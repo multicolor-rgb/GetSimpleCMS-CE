@@ -14,23 +14,23 @@ if(cookie_check()) {
 
 # was the form submitted?
 if(isset($_POST['submitted'])) { 
-	
+
 	# initial variable setup
 	$user_xml = GSUSERSPATH . _id($_POST['userid']).'.xml';
 	$userid = strtolower($_POST['userid']);
 	$password = $_POST['pwd'];
 	$error = null;
-	
+
 	# check the username or password fields
 	if ( !$userid || !$password ) {
 		$error = i18n_r('FILL_IN_REQ_FIELD');
 	} 
-	
+
 	# check for any errors
 	if ( !$error ) {
-		
+
 		exec_action('successful-login-start');
-		
+
 		# hash the given password
 		$password = passhash($password);
 
@@ -54,7 +54,7 @@ if(isset($_POST['submitted'])) {
 				$logFailed->add('Reason','Invalid Password');
 
 			} # end password match check
-			
+
 		} else {
 			# user doesnt exist in this system
 			$authenticated = false;
@@ -64,7 +64,7 @@ if(isset($_POST['submitted'])) {
 			$logFailed->add('Username',$userid);
 			$logFailed->add('Reason','Invalid User');
 		}		
-		
+
 		# is this successful?
 		if( $authenticated ) {
 			# YES - set the login cookie, then redirect user to secure panel		
@@ -76,8 +76,8 @@ if(isset($_POST['submitted'])) {
 			$error = i18n_r('LOGIN_FAILED');
 			$logFailed->save();
 		} # end authenticated check
-		
+
 	} # end error check
-	
+
 } # end submission check
 ?>

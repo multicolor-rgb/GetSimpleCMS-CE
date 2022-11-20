@@ -10,9 +10,9 @@
 
 	<!-- site footer -->
 	<footer class="clearfix" >
-		
+
 		<?php get_footer(); ?>
-		
+
 		<!-- 
 			Theme Credits
 			Please consider keeping the links to the developer and GetSimple if you use this theme
@@ -22,6 +22,6 @@
 			<div class="right">Innovation Theme by <a href="http://www.cagintranet.com" >Cagintranet</a> &middot; <?php get_site_credits(); ?></div>
 		</div>
 	</footer>
-	 
+
 </body>
 </html>
