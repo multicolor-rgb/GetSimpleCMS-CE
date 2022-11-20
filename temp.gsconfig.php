@@ -15,6 +15,8 @@ if (basename($_SERVER['PHP_SELF']) == 'gsconfig.php') {
 /*****************************************************************************/
 /** Below are constants that you can use to customize how GetSimple operates */ 
 
+# Hide I18N text on View All Pages.
+define('I18N_SINGLE_LANGUAGE',true);
 # Extra salt to secure your password with. Default is empty for backwards compatibility.
 #define('GSLOGINSALT', 'your_unique_phrase');
 
@@ -22,7 +24,7 @@ if (basename($_SERVER['PHP_SELF']) == 'gsconfig.php') {
 #define('GSUSECUSTOMSALT', 'your_new_salt_value_here');
 
 # Default thumbnail width of uploaded image
-define('GSIMAGEWIDTH', '200');
+define('GSIMAGEWIDTH', '480');
 
 # Change the administrative panel folder name
 #define('GSADMIN', 'admin');

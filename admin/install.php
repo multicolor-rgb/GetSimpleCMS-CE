@@ -21,7 +21,7 @@ include('inc/common.php');
 # variable setup
 
 // attempt to fix permissions issues
-$dirsArray = array(
+$dirsArray = [
 	GSDATAPATH, 
 	GSCACHEPATH,
 	GSDATAOTHERPATH, 
@@ -36,7 +36,7 @@ $dirsArray = array(
 	GSBACKUSERSPATH,
 	GSUSERSPATH,
 	GSDATAPAGESPATH.'autosave/'
-);
+];
 
 foreach ($dirsArray as $dir) {
 	$tmpfile = GSADMININCPATH.'tmp/tmp-404.xml';
