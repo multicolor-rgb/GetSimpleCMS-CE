@@ -2,10 +2,10 @@
 
 What has changed in this first version of the Community Edition?
 
-🚀 **_Added support for php7.x-8.1_**
+🚀 **_Added support for php7.4-8.1_**
 
 
-⚡ Latest changes: 7/10/2022
+⚡ Latest changes: 2022-11-20
 
 **Updates:**
 
