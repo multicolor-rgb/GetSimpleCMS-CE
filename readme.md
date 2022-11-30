@@ -23,7 +23,7 @@ What has changed in this first version of the Community Edition?
 
 
 ```bash
-/// original readme below ///
+///original readme ///
 ```
 GetSimple Content Management System
 =========================================
