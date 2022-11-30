@@ -11,7 +11,7 @@
  * @subpackage Language
  */
  
-$i18n = [
+$i18n = array (
 	
 	"INNOVATION_TITLE"	=>	"Innovation Theme Settings",
 	"INNOVATION_DESC"	=>	"Settings for the default GetSimple theme: Innovation",
@@ -34,4 +34,4 @@ $i18n = [
 	"VIMEO_URL"			=>	"Vimeo URL",
 	"GITHUB_URL"		=>	"Github URL"
 
-];
+);
