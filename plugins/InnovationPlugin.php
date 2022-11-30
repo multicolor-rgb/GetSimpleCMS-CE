@@ -34,10 +34,10 @@ if(	!$hidemenu || (
 	( $TEMPLATE == "Innovation" || 	( get_filename_id() == 'theme' && isset($_POST['template']) && $_POST['template'] == 'Innovation') ) &&
 	!( $TEMPLATE == "Innovation" && get_filename_id() == 'theme' && isset($_POST['template']) && $_POST['template'] != 'Innovation') )
 ) {
-	add_action('theme-sidebar','createSideMenu',[$thisfile_innov, i18n_r($thisfile_innov.'/INNOVATION_TITLE')]); 
+	add_action('theme-sidebar','createSideMenu',array($thisfile_innov, i18n_r($thisfile_innov.'/INNOVATION_TITLE'))); 
 }
 
-$services = [
+$services = array(
 	'facebook',
 	'googleplus',
 	'twitter',
@@ -47,7 +47,7 @@ $services = [
 	'youtube',
 	'vimeo',
 	'github'
-];
+);
 
 # get XML data
 if (file_exists($innovation_file)) {
